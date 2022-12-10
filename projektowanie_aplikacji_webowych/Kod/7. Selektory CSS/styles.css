@@ -1,0 +1,26 @@
+/** {
+    border: 3px solid darkred;
+}*/
+
+/*
+div {
+    border: 3px solid red;
+}*/
+
+
+/*
+.boxes {
+    border: 3px blueviolet;
+}
+*/
+
+/*
+#big-box > div {
+    border: 3px chocolate;
+}*/
+
+#box-2 + div {
+    border: 3px blueviolet;
+}
+
+#box-2 ~

@@ -1,0 +1,111 @@
+p, i {
+   font-family: "Arial Narrow";
+}
+
+h1 {
+    color: red;
+}
+
+.container {
+    height: 300px;
+    background-color: grey;
+}
+
+/* wszystkie paragrafy o klasie container
+}*/
+
+.container  {
+    color: white;
+}
+
+.container > p {
+    font-size: 1.5em;
+}
+
+/*
+    Dla wszystkich paragrafów w elemencie blokowym o klasie container ustaw kolor czcionki
+    atrybuty do wykorzystania:
+        color: white;
+*/
+
+
+/*
+    Dla paragrafu (p) który jest dzieckiem elemetu blokowego o klasie container ustaw wielkość czcionki
+    atrybuty do wykorzystania:
+        font-size: 1.5em;
+*/
+
+
+/*
+    Dla pierwszego elementu o klasie listHeader w elemencie blokowym o klasie colorList ustaw kolor tła oraz kolor czcionki
+    atrybuty do wykorzystania:
+    background-color: navy;
+    color: white;
+*/
+
+
+.colorList .listHeader {
+    background-color: navy;
+    color: white;
+}
+/*
+    Dla wszystkich sąsiadów elementu o klasie listHeader ustaw kolor tła
+    atrybuty do wykorzystania:
+    background-color: lightgrey;
+*/
+
+.listHeader ~ .item {
+    background-color: lightgrey;
+}
+
+/*
+    Dla pierwszego sąsiada elementu o klasie listHeader ustaw kolor tła
+    atrybuty do wykorzystania:
+    background-color: aquamarine;
+*/
+
+.listHeader + .item {
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+-------------------------------------------------------------------------------------------------------
+*/
+
+.colorList {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.item {
+    height: 30px;
+    margin: 2%;
+}
