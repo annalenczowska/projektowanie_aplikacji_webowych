@@ -1,0 +1,14 @@
+#form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    width: 20%
+}
+
+#username-error {
+    font-size: 0.8em;
+    color: red;
+}
