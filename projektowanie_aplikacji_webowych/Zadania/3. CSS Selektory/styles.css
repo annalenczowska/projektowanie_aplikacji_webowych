@@ -1,25 +1,17 @@
+/* dla wszystkich paragrafów i kursyw (p, i) czcionka Arrial Narrow*/
 p, i {
    font-family: "Arial Narrow";
 }
 
+/* dla nagłówka h1 o id header kolor czerwony*/
 h1 {
     color: red;
 }
 
+/* dla elementu blokowego w klasie container height i background color*/
 .container {
     height: 300px;
     background-color: grey;
-}
-
-/* wszystkie paragrafy o klasie container
-}*/
-
-.container  {
-    color: white;
-}
-
-.container > p {
-    font-size: 1.5em;
 }
 
 /*
@@ -28,12 +20,19 @@ h1 {
         color: white;
 */
 
+p.container  {
+    color: white;
+}
+
 
 /*
     Dla paragrafu (p) który jest dzieckiem elemetu blokowego o klasie container ustaw wielkość czcionki
     atrybuty do wykorzystania:
         font-size: 1.5em;
 */
+.container > p {
+    font-size: 1.5em;
+}
 
 
 /*
@@ -42,7 +41,6 @@ h1 {
     background-color: navy;
     color: white;
 */
-
 
 .colorList .listHeader {
     background-color: navy;

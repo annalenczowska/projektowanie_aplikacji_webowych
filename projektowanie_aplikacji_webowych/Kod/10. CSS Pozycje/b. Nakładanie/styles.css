@@ -3,7 +3,7 @@
     height: 200px;
     position: absolute;
     background-color: orange;
-
+    z-index: 3;
 }
 
 #box2 {
@@ -13,6 +13,7 @@
     background-color: yellow;
     top: 100px;
     left: 100px;
+    z-index: 2;
  }
 
 #box3 {
@@ -22,5 +23,6 @@
     background-color: green;
     top: 50px;
     left: 200px;
+    z-index: 1;
 
 }

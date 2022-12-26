@@ -1,7 +1,9 @@
 .container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;  /* center, flex-start - po lewej lub flex-end - po prawej;
+                                    space-evenly - równe marginesy, space-between - rozmieszczenie
+                                    po całej stronie */
 }
 
 .box {

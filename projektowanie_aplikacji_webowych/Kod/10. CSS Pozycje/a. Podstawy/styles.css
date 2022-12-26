@@ -12,7 +12,7 @@
 .box {
     height: 100px;
     width: 200px;
-    background: orange;
+    background-color: orange;
 }
 
 .relative {
