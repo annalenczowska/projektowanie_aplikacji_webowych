@@ -28,7 +28,6 @@ window.onload = function () {
             usernameError.setAttribute('hidden','');
         }
 
-
         return userValid;
     }
     checkRequiredInput(input) {
@@ -41,6 +40,11 @@ window.onload = function () {
 
     function checkExistUserName(input) {
         return existUserName.includes(input.value);
+    }
+
+    function setErrorText (msg) {
+        usernameError.textContent = msg;
+        usernameError.removeAttribute('hidden');
     }
 
 }

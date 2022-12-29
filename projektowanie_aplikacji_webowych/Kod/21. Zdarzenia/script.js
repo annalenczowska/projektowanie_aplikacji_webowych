@@ -1,7 +1,9 @@
 window.onload = function () {
 
+    let boxContainer = document.getElementById('box-container');
+
     let clickCounter = 0;
-    let DoubleClickCounter = 0;
+    let doubleClickCounter = 0;
     let keyDownCounter = 0;
 
     document.addEventListener('click', function () {
@@ -9,14 +11,14 @@ window.onload = function () {
     });
 
     document.addEventListener('dbclick', function () {
-        document.getElementById('double-click-counter').textContent = ++DoubleClickCounter;
+        document.getElementById('double-click-counter').textContent = ++doubleClickCounter;
     });
 
     document.addEventListener('keydown', function () {
         document.getElementById('key-down-counter').textContent = ++keyDownCounter;
     });
 
-    document.getElementById('add-element').addEventListener('click', function);{
+    document.getElementById('add-element').addEventListener('click', function() {
     let newElement = document.createElement('div');
     newElement.classList.add('box');
 
@@ -24,12 +26,12 @@ window.onload = function () {
 
 });
 
-boxContainer.addEventListener('click', function (e)){
-    if (e.target.className).includes('box')) {
+boxContainer.addEventListener('click', function (e){
+    if (e.target.className.includes('box')) {
     this.removeChild(e.target);
         }
 
-}
+});
 
 
 };

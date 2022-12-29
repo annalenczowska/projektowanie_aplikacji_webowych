@@ -18,6 +18,7 @@ function evenOrOdd(n) {
 
 console.log(evenOrOdd());
 
+
 function oneToHundred() {
     for (let i = 0; i < 100; i++) {
         if (i % 3 == 0) ;

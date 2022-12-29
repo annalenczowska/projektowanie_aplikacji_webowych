@@ -22,12 +22,12 @@ console.log('------------------------------------');
 console.log(numericArray[3]);
 
 console.log('------------------------------------');
-console.log(numericArray.includes(4));
+console.log(numericArray.includes(4));                  //czy tablica zawiera element o wartości 4//
 console.log(numericArray.includes(3));
 
 console.log('------------------------------------');
 
-numericArray.push(4);
+numericArray.push(4);               //dodajemy do tablicy wartość 4//
 console.log(numericArray);
 
 console.log('------------------------------------');
